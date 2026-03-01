@@ -1,4 +1,4 @@
-# Catatan Materi: Computational Intelligence (Kecerdasan Komputasional)
+# Pengantar Intelligence
 
 ## 📌 Bentuk-Bentuk Utama
 Terdapat beberapa metode utama dalam sistem kecerdasan ini:
@@ -6,6 +6,14 @@ Terdapat beberapa metode utama dalam sistem kecerdasan ini:
 * **Fuzzy Logic** (Logika Samar)
 * **Evolutionary Algorithm** (Algoritma Evolusioner)
 * **Swarm Intelligence** (Kecerdasan Kelompok)
+
+---
+
+## Apa itu Computational Intelligence
+Pendekatan AI berbasis pembelajaran adaptif
+* **Fokus pada optimasi numerik**
+* **Mampu menangani ketidakpastian**
+* **Learning, Adaptation, Optimization**
 
 ---
 
