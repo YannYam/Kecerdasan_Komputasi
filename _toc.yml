@@ -5,8 +5,4 @@ format: jb-book
 root: intro
 chapters:
 - file: Pertemuan-1
-  sections:
-  - 
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+- file: Pertemuan-2
