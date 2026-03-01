@@ -3,6 +3,9 @@
 
 format: jb-book
 root: intro
+
+---
+
 chapters:
 - file: Pertemuan-1
 - file: Pertemuan-2
