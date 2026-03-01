@@ -1,4 +1,4 @@
-# Selamat Datang di Buku Interaktif Kecerdasan Komputasional 🧠💻
+# Selamat Datang di Buku KK
 
 Halo! Perkenalkan, saya **Ryan Hidayat**. 
 
