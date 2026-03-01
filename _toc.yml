@@ -5,7 +5,7 @@ format: jb-book
 root: intro
 chapters:
 - file: Pertemuan-1/Pengantar
-  scenes:
+  sections:
   - file: Pertemuan-1/Fuzzy-Logic
   - file: Pertemuan-1/Neural-Network
   - file: Pertemuan-1/Evolutionary

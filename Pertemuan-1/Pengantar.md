@@ -24,5 +24,3 @@ Berikut adalah alur pembelajaran yang akan dibahas:
 3. Genetic Algorithm (Bagian dari Evolutionary Algorithm)
 4. Particle Swarm Optimization / PSO (Bagian dari Swarm Intelligence)
 5. Hybrid Model
-
----
