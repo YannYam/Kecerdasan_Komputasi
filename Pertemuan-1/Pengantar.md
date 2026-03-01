@@ -26,6 +26,3 @@ Berikut adalah alur pembelajaran yang akan dibahas:
 5. Hybrid Model
 
 ---
-
-## 📖 Detail Materi
-
