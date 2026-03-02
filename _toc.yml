@@ -6,9 +6,9 @@ root: intro
 chapters:
 - file: Pertemuan-1/Pengantar
   sections:
-  - file: Pertemuan-1/Fuzzy-Logic
-  - file: Pertemuan-1/Neural-Network
-  - file: Pertemuan-1/Evolutionary
-  - file: Pertemuan-1/Swarm
-  - file: Pertemuan-1/Hybrid
-- file: Pertemuan-2
+  - file: Materi/Pertemuan-1/Fuzzy-Logic
+  - file: Materi/Pertemuan-1/Neural-Network
+  - file: Materi/Pertemuan-1/Evolutionary
+  - file: Materi/Pertemuan-1/Swarm
+  - file: Materi/Pertemuan-1/Hybrid
+- file: Materi/Pertemuan-2
