@@ -4,7 +4,7 @@
 format: jb-book
 root: intro
 chapters:
-- file: Materi/Pertemuan-1/Pengantar
+- file: Materi/Pertemuan-1/Home
   sections:
   - file: Materi/Pertemuan-1/Fuzzy-Logic
   - file: Materi/Pertemuan-1/Neural-Network

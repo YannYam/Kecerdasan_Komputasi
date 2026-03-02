@@ -19,8 +19,8 @@ Pendekatan AI berbasis pembelajaran adaptif
 
 ## 🗺️ Roadmap Materi
 Berikut adalah alur pembelajaran yang akan dibahas:
-1. <a href='./Fuzzy-Logic.html' style='text-decoration:none;'>Fuzzy Logic</a>
-2. <a href='./Neural-Network' style='text-decoration:none;'>ANN (Artificial Neural Network)</a>
+1. Fuzzy Logic
+2. ANN (Artificial Neural Network)
 3. Genetic Algorithm (Bagian dari Evolutionary Algorithm)
 4. Particle Swarm Optimization / PSO (Bagian dari Swarm Intelligence)
 5. Hybrid Model
