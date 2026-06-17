@@ -1,26 +1,35 @@
 # Pengantar Intelligence
 
-## 📌 Bentuk-Bentuk Utama
-Terdapat beberapa metode utama dalam sistem kecerdasan ini:
-* **Neural Network** (Jaringan Saraf Tiruan)
-* **Fuzzy Logic** (Logika Samar)
-* **Evolutionary Algorithm** (Algoritma Evolusioner)
-* **Swarm Intelligence** (Kecerdasan Kelompok)
+## Bentuk Utama
+Materi ini membahas empat pendekatan utama dalam Computational Intelligence:
+* **Fuzzy Logic** untuk menangani ketidakpastian dan istilah linguistik.
+* **Neural Network** untuk belajar dari data dan melakukan klasifikasi atau prediksi.
+* **Evolutionary Computation** untuk optimasi berbasis seleksi alam.
+* **Swarm Intelligence** untuk pencarian solusi melalui perilaku kolektif agen.
 
 ---
 
-## Apa itu Computational Intelligence
-Pendekatan AI berbasis pembelajaran adaptif
-* **Fokus pada optimasi numerik**
-* **Mampu menangani ketidakpastian**
-* **Learning, Adaptation, Optimization**
+## Apa Itu Computational Intelligence
+Computational Intelligence adalah pendekatan AI yang berfokus pada pembelajaran adaptif, optimasi numerik, dan penanganan ketidakpastian.
+* **Learning**: sistem belajar dari data.
+* **Adaptation**: model dapat menyesuaikan diri terhadap perubahan.
+* **Optimization**: dipakai untuk mencari solusi terbaik pada ruang pencarian yang kompleks.
 
 ---
 
-## 🗺️ Roadmap Materi
-Berikut adalah alur pembelajaran yang akan dibahas:
+## Roadmap Materi
+Urutan materi pada pertemuan awal adalah:
 1. Fuzzy Logic
-2. ANN (Artificial Neural Network)
-3. Genetic Algorithm (Bagian dari Evolutionary Algorithm)
-4. Particle Swarm Optimization / PSO (Bagian dari Swarm Intelligence)
+2. ANN / Neural Network
+3. Genetic Algorithm
+4. Particle Swarm Optimization
 5. Hybrid Model
+
+---
+
+## Contoh Area Aplikasi
+Pendekatan ini banyak dipakai pada:
+* Sistem kontrol seperti AC, mesin cuci, dan rice cooker.
+* Klasifikasi dan prediksi pada data medis atau citra.
+* Optimasi rute, penjadwalan, dan pemilihan fitur.
+* Sistem hybrid untuk menggabungkan kelebihan beberapa metode sekaligus.

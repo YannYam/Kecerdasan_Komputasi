@@ -1,53 +1,30 @@
 ### 1. Fuzzy Logic
 
+Fuzzy Logic dipakai untuk memodelkan konsep yang tidak tegas seperti tinggi, rendah, panas, atau cukup pintar.
+* **Fungsi:** menangani uncertainty dan keaburan data.
+* **Karakteristik utama:** setiap nilai punya **derajat keanggotaan** antara 0 sampai 1.
+* **Penerapan:** sistem kontrol seperti AC, mesin cuci, dan pengambilan keputusan sederhana.
 
-Fuzzy Logic berfungsi untuk mendefinisikan suatu ketidakpastian menjadi hal yang terukur secara matematis (contohnya rentang batas antara "tinggi" dan "pendek").
-* **Fungsi:** Menangani ketidakpastian (*uncertainty*) dan keaburan data.
-* **Karakteristik Utama:** Menggunakan **derajat keanggotaan** (*degree of membership*) dengan nilai rentang antara 0 hingga 1.
-* **Penerapan:** Sangat umum digunakan pada sistem kontrol (contoh: pengatur suhu AC, mesin cuci otomatis).
+#### Inti Konsep
+Logika klasik memakai batas tegas, sedangkan fuzzy memberi ruang abu-abu.
+* Himpunan crisp bersifat biner: 0 atau 1.
+* Himpunan fuzzy memungkinkan satu nilai masuk ke beberapa kategori sekaligus dengan tingkat yang berbeda.
 
-#### Mengapa Fuzzy Dibutuhkan?
-Dalam kehidupan nyata, banyak keputusan yang tidak bersifat tegas:
-* "Cuaca agak panas"
-* "Mahasiswa Cukup Pintar"
-* "Pendapatan rendah"
-Logika klasik (crisp) tidak mampu menangani ambiguitas tersebut.
+#### Komponen Utama
+Materi pada buku menekankan tiga bagian besar:
+* **Linguistic variable** untuk mewakili data dengan bahasa natural.
+* **Membership function** untuk membentuk derajat keanggotaan.
+* **Fuzzy rules** berbentuk IF-THEN untuk membuat keputusan.
 
-#### Himpunan Crisp / Logika Klasik
-HImpunan crisp adalah himpunan derajat keanggotaan 
-hanya: 
-$\mu_A(x) = 0 \text{ atau } 1$
+#### Proses Inferensi Fuzzy
+Alur dasarnya adalah:
+1. **Fuzzification** mengubah nilai crisp menjadi nilai fuzzy.
+2. **Inferencing** menghitung kekuatan aturan dengan operasi AND, OR, dan NOT.
+3. **Defuzzification** mengubah hasil fuzzy menjadi nilai crisp.
 
-Contoh:
-$A = {x >= 180}$
+#### Metode Inferensi
+* **Mamdani**: consequent berupa himpunan fuzzy.
+* **Sugeno**: consequent berupa konstanta atau fungsi.
 
-#### Himpunan Fuzzy
-* Definisi
-HImpunan Fuzzy memiliki derajat keanggotaan antara 0 dan 1.
-$\mu_A(x): X \to [0, 1]$
-
-Elemen-elemen dalam himpunan fuzzy tidak hanya memiliki
-dua kemungkinan saja, yaitu anggota suatu himpunan atau bukan anggota suatu himpunan, Akan tetapi setiap elemen himpunan fuzzy memiliki nilai derajat keanggotaan (membership degree)
-
-![Gambar Derajat keanggotaan](../../img/image.png)
-
-#### Himpunan Fuzzy - Membership Degree
-
-Notasi Keanggotaan Himpunan Fuzzy:
-![Gambar Notasi](../../img/image2.png)
-![Gambar Notasi](../../img/image3.png)
-
-#### Himpunan Fuzzy - Membership Function
-
-Membership function atau fungsi keanggotan yang dibuat harus sesuai dengan permasalahan yang ada.
-
-Misalkan terdapat himpunan A, yaitu suatu himpunan yang anggota-anggotanya adalah bilangan-bilangan yang dekat dengan nol.
-![Gambar Notasi](../../img/image4.png)
-
-Membership function Himpunan A : 
-
-#### Logika Fuzzy
-Atur
-
-
-#### Aturan Fuzzy
+#### Contoh Aplikasi
+Contoh yang dipakai di materi adalah sistem beasiswa, dengan input seperti nilai dan pendapatan orang tua, lalu output berupa sedikit atau banyak beasiswa.
